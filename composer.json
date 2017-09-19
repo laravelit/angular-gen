@@ -1,0 +1,24 @@
+{
+    "name": "afroware/laravel-angular-gen",
+    "description": "Angular generators for Artisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adel Lamallam",
+            "email": "lamllam@afroware.com"
+        },
+        {
+            "name": "Reda Hamioui",
+            "email": "hamioui@afroware.com"
+        }
+    ],
+    "require": {
+        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*|| 5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afroware\\Generators\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
