@@ -2,6 +2,7 @@
     "name": "laravelit/angular-gen",
     "description": "Angular generators for Artisan",
     "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Adel Lamallam",
@@ -13,11 +14,11 @@
         }
     ],
     "require": {
-        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*|| 5.5.*"
+        "illuminate/console": "^5.5"
     },
     "autoload": {
         "psr-4": {
-            "Afroware\\Generators\\": "src"
+            "Laravelit\\Generators\\": "src"
         }
     },
     "minimum-stability": "dev"

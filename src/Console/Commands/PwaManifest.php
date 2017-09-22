@@ -1,6 +1,6 @@
 <?php
 
-namespace Afroware\Generators\Console\Commands;
+namespace Laravelit\Generators\Console\Commands;
 
 use Illuminate\Console\Command;
 

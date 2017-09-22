@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5392e44402fb8bddeec839028d6320a5",
+    "content-hash": "0d9abc8fce181715abd7286de0969931",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -75,21 +75,21 @@
         },
         {
             "name": "illuminate/console",
-            "version": "5.5.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "a306d2d2bbb2760717973954f1af69f7a06204c7"
+                "reference": "bb5996036e1e4018e254f0b241382099e3341f90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/a306d2d2bbb2760717973954f1af69f7a06204c7",
-                "reference": "a306d2d2bbb2760717973954f1af69f7a06204c7",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/bb5996036e1e4018e254f0b241382099e3341f90",
+                "reference": "bb5996036e1e4018e254f0b241382099e3341f90",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.5.*",
-                "illuminate/support": "5.5.*",
+                "illuminate/contracts": "5.6.*",
+                "illuminate/support": "5.6.*",
                 "php": ">=7.0",
                 "symfony/console": "~3.3"
             },
@@ -101,7 +101,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5-dev"
+                    "dev-master": "5.6-dev"
                 }
             },
             "autoload": {
@@ -121,20 +121,20 @@
             ],
             "description": "The Illuminate Console package.",
             "homepage": "https://laravel.com",
-            "time": "2017-09-14T12:44:28+00:00"
+            "time": "2017-09-21T14:22:04+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "5.5.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "d9e269284eba43bd2e9e8d1f1ba12362b00ec096"
+                "reference": "8b84fde53a039253dfe579bb11b0e0a06dc47b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/d9e269284eba43bd2e9e8d1f1ba12362b00ec096",
-                "reference": "d9e269284eba43bd2e9e8d1f1ba12362b00ec096",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/8b84fde53a039253dfe579bb11b0e0a06dc47b5b",
+                "reference": "8b84fde53a039253dfe579bb11b0e0a06dc47b5b",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5-dev"
+                    "dev-master": "5.6-dev"
                 }
             },
             "autoload": {
@@ -165,26 +165,26 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2017-09-19T13:09:37+00:00"
+            "time": "2017-09-21T14:39:54+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "5.5.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "600985da158aea77bca555335344289ddef08b36"
+                "reference": "5f631c5cfbbb71c9daf4675695cc4e3c53f6da45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/600985da158aea77bca555335344289ddef08b36",
-                "reference": "600985da158aea77bca555335344289ddef08b36",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/5f631c5cfbbb71c9daf4675695cc4e3c53f6da45",
+                "reference": "5f631c5cfbbb71c9daf4675695cc4e3c53f6da45",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "~1.1",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.5.*",
+                "illuminate/contracts": "5.6.*",
                 "nesbot/carbon": "^1.20",
                 "php": ">=7.0"
             },
@@ -199,7 +199,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5-dev"
+                    "dev-master": "5.6-dev"
                 }
             },
             "autoload": {
@@ -222,7 +222,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2017-09-19T17:31:08+00:00"
+            "time": "2017-09-21T14:22:04+00:00"
         },
         {
             "name": "nesbot/carbon",

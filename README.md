@@ -18,10 +18,10 @@ artisan ng:config name     #New config inside angular/config/
 
 If you're using the starter project, then it's already pre-installed.
 
-    composer require afroware/laravel-angular-gen
+    composer require Laravelit/angular-gen
 
     //and then add the provider in config/app.php
-    Afroware\Generators\LaravelServiceProvider::class,
+    Laravelit\Generators\LaravelServiceProvider::class,
 
     php artisan vendor:publish
 

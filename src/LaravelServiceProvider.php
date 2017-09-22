@@ -1,6 +1,6 @@
 <?php
 
-namespace Afroware\Generators;
+namespace Laravelit\Generators;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -26,14 +26,14 @@ class LaravelServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            'Afroware\Generators\Console\Commands\AngularConfig',
-            'Afroware\Generators\Console\Commands\AngularDialog',
-            'Afroware\Generators\Console\Commands\AngularComponent',
-            'Afroware\Generators\Console\Commands\AngularDirective',
-            'Afroware\Generators\Console\Commands\AngularPage',
-            'Afroware\Generators\Console\Commands\AngularFilter',
-            'Afroware\Generators\Console\Commands\AngularService',
-            'Afroware\Generators\Console\Commands\PwaManifest',
+            'Laravelit\Generators\Console\Commands\AngularConfig',
+            'Laravelit\Generators\Console\Commands\AngularDialog',
+            'Laravelit\Generators\Console\Commands\AngularComponent',
+            'Laravelit\Generators\Console\Commands\AngularDirective',
+            'Laravelit\Generators\Console\Commands\AngularPage',
+            'Laravelit\Generators\Console\Commands\AngularFilter',
+            'Laravelit\Generators\Console\Commands\AngularService',
+            'Laravelit\Generators\Console\Commands\PwaManifest',
         ]);
 
         $this->mergeConfigFrom(__DIR__.'/../config/generators.php', 'generators');
